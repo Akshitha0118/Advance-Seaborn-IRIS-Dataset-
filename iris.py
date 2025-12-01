@@ -145,7 +145,7 @@ st.markdown('<p class="subtitle">Explore patterns between Sepal & Petal measurem
 # Image
 st.markdown("<div style='text-align:center;'>", unsafe_allow_html=True)
 st.image(
-    r"C:\Users\ADMIN\Desktop\DATA SCIENCE NOTES\NOVEMBER MONTH\27TH NOV\25th, 26th- Advanced EDA project\25th, 26th- Advanced EDA project\IRIS DATASET _ ADVANCE VISUALIZATION _ EDA 2\iris flower.png",
+   "iris flower.png",
     caption="Iris Flower — Sepal & Petal Length & Width",
     width=650
 )
@@ -211,4 +211,5 @@ st.markdown("""
 </ul>
 </div>
 """, unsafe_allow_html=True)
+
 
