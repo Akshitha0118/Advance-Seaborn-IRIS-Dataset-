@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load Dataset
-df = pd.read_csv(r"C:\Users\ADMIN\Desktop\DATA SCIENCE NOTES\NOVEMBER MONTH\27TH NOV\25th, 26th- Advanced EDA project\25th, 26th- Advanced EDA project\IRIS DATASET _ ADVANCE VISUALIZATION _ EDA 2\Iris.csv")
+df = pd.read_csv("Iris.csv")
 
 # Page Config
 st.set_page_config(page_title="Iris Dataset Dashboard", layout="wide")
@@ -211,3 +211,4 @@ st.markdown("""
 </ul>
 </div>
 """, unsafe_allow_html=True)
+
